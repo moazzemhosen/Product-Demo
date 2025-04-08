@@ -6,6 +6,7 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
 import ProtectedRoute from "./components/ProtectedRoute";
+import DownloadTemp from "./pages/DownloadTemp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/reportDashboard" element={<PageTwo />} />
           <Route path="/userManagement" element={<PageThree />} />
           <Route path="/otherSection" element={<PageFour />} />
+          <Route path="/downloadtemplate" element={<DownloadTemp/>} />
         </Route>
       </Routes>
     </Router>
