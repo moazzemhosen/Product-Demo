@@ -5,7 +5,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <nav className="flex items-center justify-between p-4 py-2 bg-gray-300 text-gray-900">
+    <nav className="flex items-center justify-between px-6 py-3 bg-blue-50 shadow-sm">
       <button
         onClick={() => navigate(-1)}
         className="flex items-center space-x-2 cursor-pointer"
@@ -13,34 +13,35 @@ function Navbar() {
         <FaArrowLeft />
         <span>Back</span>
       </button>
+      
       <div className="flex space-x-4">
         <Link
           to="/"
-          className=" px-3 bg-blue-300 font-semibold shadow rounded-lg text-center hover:bg-blue-400 border-1"
+          className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 transition"
         >
           Home
         </Link>
         <Link
           to="/dataCollection"
-          className=" px-3 bg-blue-300 font-semibold shadow rounded-lg text-center hover:bg-blue-400 border-1"
+          className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 transition"
         >
           Data Collection
         </Link>
         <Link
           to="/reportDashboard"
-          className=" px-3 bg-blue-300 font-semibold shadow rounded-lg text-center hover:bg-blue-400 border-1"
+          className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 transition"
         >
           Report & Dashboard
         </Link>
         <Link
           to="/userManagement"
-          className=" px-3 bg-blue-300 font-semibold shadow rounded-lg text-center hover:bg-blue-400 border-1"
+          className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 transition"
         >
           User Management
         </Link>
         <Link
           to="/otherSection"
-          className=" px-3 bg-blue-300 font-semibold shadow rounded-lg text-center hover:bg-blue-400 border-1"
+          className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-100 text-blue-700 hover:bg-blue-200 transition"
         >
           Other Section
         </Link>

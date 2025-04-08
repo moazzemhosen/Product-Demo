@@ -1,25 +1,31 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
+
 import HomePage from "./pages/HomePage";
-import PageOne from "./pages/PageOne";
+
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
 import ProtectedRoute from "./components/ProtectedRoute";
 import DownloadTemp from "./pages/DownloadTemp";
+import MainLogin from "./pages/MainLogin";
+import DataCollection from "./pages/DataCollection";
+import UploadData from "./pages/UploadData";
+import NotReadyPage from "./pages/NotReadyPage";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/login" element={<MainLogin/>} />
         <Route element={<ProtectedRoute />}>
+
           <Route path="/" element={<HomePage />} />
-          <Route path="/dataCollection" element={<PageOne />} />
-          <Route path="/reportDashboard" element={<PageTwo />} />
-          <Route path="/userManagement" element={<PageThree />} />
-          <Route path="/otherSection" element={<PageFour />} />
+          <Route path="/dataCollection" element={<DataCollection />} />
+          <Route path="/reportDashboard" element={<NotReadyPage />} />
+          <Route path="/userManagement" element={<NotReadyPage />} />
+          <Route path="/otherSection" element={<NotReadyPage />} />
           <Route path="/downloadtemplate" element={<DownloadTemp/>} />
+          <Route path="/uploaddata" element={<UploadData/>} />
         </Route>
       </Routes>
     </Router>

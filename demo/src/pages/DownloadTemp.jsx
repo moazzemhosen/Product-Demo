@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 
 const DownloadTemp = () => {
     const fields = [
@@ -26,9 +27,12 @@ const DownloadTemp = () => {
               </select>
             </div>
           ))}
+          <Link to="/uploaddata">
           <button className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
             Generate template
           </button>
+          </Link>
+          
         </div>
       </div>
       </div>

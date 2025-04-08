@@ -20,7 +20,13 @@ function LoginPage() {
   };
 
   return (
+
+    
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      
+      <div className='w-50 border-red-50'>
+
+      </div>
       <div className="p-8 bg-white shadow-md rounded-lg">
         <h2 className="mb-6 text-2xl font-bold text-center">Login</h2>
         <form onSubmit={handleSubmit}>
@@ -51,6 +57,9 @@ function LoginPage() {
             Login
           </button>
         </form>
+      </div>
+      <div className='w-50 border-red-50'>
+
       </div>
     </div>
   );
