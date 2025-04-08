@@ -10,8 +10,9 @@ function Navbar() {
         onClick={() => navigate(-1)}
         className="flex items-center space-x-2 cursor-pointer"
       >
-        <FaArrowLeft />
-        <span>Back</span>
+        {/* <FaArrowLeft /> */}
+        <img src="logo.png" alt="AXA" srcset=""  className="h-10 w-10 object-cover" />
+        
       </button>
       
       <div className="flex space-x-4">

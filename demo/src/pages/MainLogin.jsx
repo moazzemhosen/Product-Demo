@@ -65,10 +65,10 @@ const MainLogin = () => {
                     <img
                         src="logo.png"
                         alt="AXA GBS"
-                        className="w-40 mx-auto mb-6"
+                        className="w-20 mx-auto mb-6"
                     />
-                    <h2 className="text-xl font-semibold text-center mb-2">Welcome back!</h2>
-                    <p className="text-sm text-center text-gray-500 mb-6">Please login with your AXA GBS account.</p>
+                    <h2 className="text-xl font-semibold text-center mb-1">Welcome back!</h2>
+                    <p className="text-sm text-center text-gray-500 mb-6">Please login with your AXA account.</p>
                     <div className="mb-4">
                         <label className="block text-sm font-medium mb-1">Email</label>
                         <input

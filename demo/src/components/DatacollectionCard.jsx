@@ -10,7 +10,7 @@ const DatacollectionCard = () => {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-10 p-60">
             {EachCards.map((card, idx) => (
-                <DataCollectionEachCard key={idx} data={card}/>
+                <DataCollectionEachCard key={idx} data={card} id={idx}/>
             ))}
         </div>
   )

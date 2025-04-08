@@ -15,6 +15,7 @@ function HomePage() {
   ])
   return (
     <div className="bg-gray-100 min-h-screen">
+      <Navbar/>
       <Heading/>
       <Card/>
     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { FaHandsClapping } from 'react-icons/fa6';
 
 const Heading = () => {
     const [displayName, setDisplayName] = useState("");
@@ -20,8 +21,9 @@ const Heading = () => {
     }, []);
   return (
     <div className="bg-white p-6">
-      <h1 className="text-3xl font-bold mb-2">Hello {displayName}</h1>
-      <h2 className="text-xl text-gray-600 mb-4">Welcome to AXA</h2>
+        
+      <h1 className="text-3xl w-full font-bold mb-2 text-sky-900">Hello, {displayName}</h1>
+      <h2 className="text-xl text-gray-600 mb-4">Welcome to AXA </h2>
      
     </div>
   )
