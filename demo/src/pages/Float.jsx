@@ -16,7 +16,7 @@ const [showForm, setShowForm] = useState(false);
     <>
       {/* Floating Button */}
       <div
-        className="fixed bottom-6 right-6 bg-blue-600 text-white p-6 rounded-full cursor-pointer shadow-lg z-50"
+        className="fixed bottom-6 right-6 bg-blue-600 text-white p-2 rounded-full cursor-pointer shadow-lg z-50"
         onClick={() => setShowForm(!showForm)}
       >
         <TbMessageChatbotFilled className='h-10 w-10' />

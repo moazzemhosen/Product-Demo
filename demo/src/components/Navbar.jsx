@@ -39,7 +39,7 @@ function Navbar() {
           to="/userManagement"
           className="px-4 py-1.5 rounded-full text-sm font-medium text-gray-50 font-serif text-blue-700 hover: transition"
         >
-          USER MANAGENENT
+          USER MANAGEMENT
         </Link>
         <Link
           to="/otherSection"
