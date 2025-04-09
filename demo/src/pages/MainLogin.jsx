@@ -25,7 +25,8 @@ const MainLogin = () => {
     const slides = [
         "imag1.jpg",
         "image33.jpg",
-        "image44.jpg",
+        "image66.jpg",
+        "image77.jpg",
     ];
     const [current, setCurrent] = useState(0);
 

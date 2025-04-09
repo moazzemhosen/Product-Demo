@@ -2,9 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 
-import PageTwo from "./pages/PageTwo";
-import PageThree from "./pages/PageThree";
-import PageFour from "./pages/PageFour";
 import ProtectedRoute from "./components/ProtectedRoute";
 import DownloadTemp from "./pages/DownloadTemp";
 import MainLogin from "./pages/MainLogin";
@@ -12,8 +9,10 @@ import DataCollection from "./pages/DataCollection";
 import UploadData from "./pages/UploadData";
 import NotReadyPage from "./pages/NotReadyPage";
 
+
 function App() {
   return (
+   
     <Router>
       <Routes>
         <Route path="/login" element={<MainLogin/>} />
@@ -29,6 +28,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+  
   );
 }
 
