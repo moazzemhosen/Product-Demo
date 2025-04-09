@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import LoginPage from './LoginPage'
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import Float from './Float';
 
 
 
@@ -32,6 +33,7 @@ const MainLogin = () => {
     const nextSlide = () => setCurrent((prev) => (prev + 1) % slides.length);
     const prevSlide = () => setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
     return (
+        <>
         <div className="min-h-screen flex">
             {/* Left side - Image Slider */}
             <div className="w-1/2 bg-gray-200 relative flex items-center justify-center">
@@ -105,6 +107,8 @@ const MainLogin = () => {
                 </form>
             </div>
         </div>
+        <Float/>
+        </>
     );
 };
 

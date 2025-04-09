@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import DatacollectionCard from '../components/DatacollectionCard'
+import Float from './Float'
 
 const DataCollection = () => {
   return (
@@ -12,6 +13,7 @@ const DataCollection = () => {
       <h1 className="mb-8 text-3xl font-bold"></h1>
       <DatacollectionCard />
     </div>
+    <Float/>
   </div>
   )
 }

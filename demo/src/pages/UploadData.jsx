@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import Float from './Float';
 
 const UploadData = () => {
     return (
@@ -18,6 +19,7 @@ const UploadData = () => {
                     Download template
                 </button>
             </div>
+            <Float/>
         </div>
     )
 }
