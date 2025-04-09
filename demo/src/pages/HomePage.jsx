@@ -15,7 +15,7 @@ function HomePage() {
     { "Name": "Data Collection", "Details": "Set up both reports and alerts which can be immediately dispatched", "link": "/otherSection" },
   ])
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen bg-gray-100 bg-[url('image33.jpg')] bg-cover bg-center bg-no-repeat min-h-screen">
       <Navbar/>
       <Heading/>
       <Card/>

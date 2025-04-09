@@ -20,7 +20,7 @@ const Heading = () => {
       }
     }, []);
   return (
-    <div className="bg-white p-6">
+    <div className="bg-gray-50 p-6">
         
       <h1 className="text-3xl w-full font-bold mb-2 text-sky-900">Hello, {displayName}</h1>
       <h2 className="text-xl text-gray-600 mb-4">Welcome to AXA </h2>

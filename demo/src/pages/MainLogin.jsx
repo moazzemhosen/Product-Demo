@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import LoginPage from './LoginPage'
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Float from './Float';
@@ -25,8 +24,8 @@ const MainLogin = () => {
 
     const slides = [
         "imag1.jpg",
-        "imag2.png",
-        "imag1.jpg",
+        "image33.jpg",
+        "image44.jpg",
     ];
     const [current, setCurrent] = useState(0);
 
@@ -107,7 +106,7 @@ const MainLogin = () => {
                 </form>
             </div>
         </div>
-        <Float/>
+        
         </>
     );
 };

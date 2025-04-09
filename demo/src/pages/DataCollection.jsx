@@ -5,12 +5,10 @@ import Float from './Float'
 
 const DataCollection = () => {
   return (
-    <div className='bg-cover bg-center h-screen'
-    style={{backgroundImage:"url('imag2.png')"}}
-    >
+    <div className="bg-gray-100 bg-[url('image33.jpg')] bg-cover bg-center bg-no-repeat min-h-screen" >
     <Navbar />
-    <div className="flex">
-      <h1 className="mb-8 text-3xl font-bold"></h1>
+    <div className="pt-33">
+      {/*  for background- <h1 className="bg-gray-100 min-h-screen mt-33 bg-[url('image33.jpg')] bg-cover bg-center bg-no-repeat min-h-screen"></h1> */}
       <DatacollectionCard />
     </div>
     <Float/>

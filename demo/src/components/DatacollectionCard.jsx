@@ -8,7 +8,7 @@ const DatacollectionCard = () => {
         {"Title":"Rules & Mapping Tables","link":"/rulesand mapping"},
     ]
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-10 p-60">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 p-20">
             {EachCards.map((card, idx) => (
                 <DataCollectionEachCard key={idx} data={card} id={idx}/>
             ))}
